@@ -14,6 +14,8 @@ public class selector : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position = new Vector3((float)Math.Truncate(player.transform.position.x+0.5f), (float)Math.Truncate(player.transform.position.y-0.5f), 0);
+        float x_pos = (float)Math.Truncate(player.transform.position.x + 0.5f + Input.GetAxis("Horizontal"));
+        float y_pos = (float)Math.Truncate(player.transform.position.y - 0.5f + Input.GetAxis("Vertical"));
+        transform.position = new Vector3(x_pos, y_pos, 0);
     }
 }

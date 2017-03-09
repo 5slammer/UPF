@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPF.Plugins", "UPF.Plugins.csproj", "{77A62F72-742A-0BFB-7050-6D1B3965B227}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPF", "UPF.csproj", "{DA09BF8C-3C46-9B96-41CB-17DCE1413E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPF.Editor.Plugins", "UPF.Editor.Plugins.csproj", "{D33DC831-27EF-D72A-300F-0E28693602CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A62F72-742A-0BFB-7050-6D1B3965B227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A62F72-742A-0BFB-7050-6D1B3965B227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A62F72-742A-0BFB-7050-6D1B3965B227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A62F72-742A-0BFB-7050-6D1B3965B227}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA09BF8C-3C46-9B96-41CB-17DCE1413E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA09BF8C-3C46-9B96-41CB-17DCE1413E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA09BF8C-3C46-9B96-41CB-17DCE1413E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA09BF8C-3C46-9B96-41CB-17DCE1413E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33DC831-27EF-D72A-300F-0E28693602CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33DC831-27EF-D72A-300F-0E28693602CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33DC831-27EF-D72A-300F-0E28693602CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33DC831-27EF-D72A-300F-0E28693602CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
