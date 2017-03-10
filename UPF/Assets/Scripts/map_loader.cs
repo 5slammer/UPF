@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class map_loader : MonoBehaviour {
     private int[,] map;
-    //public GameObject grass,water,dirt,rock;
+    public GameObject grass,water,dirt,rock;
 	// Use this for initialization
 	void Start () {
         map = new int[20, 20] { { 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2},
@@ -29,6 +29,7 @@ public class map_loader : MonoBehaviour {
                                 { 2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2},
                                 { 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2},
                               };
+        load_map();
     }
 	
 	// Update is called once per frame
@@ -36,8 +37,6 @@ public class map_loader : MonoBehaviour {
 		
 	}
 
-
-    /*Use for loading custom maps
     void load_map () {
         int row = 0;
         int col = 0;
@@ -61,5 +60,4 @@ public class map_loader : MonoBehaviour {
         }
         transform.position = new Vector3(0, 0, 0);
     }
-    */
 }
