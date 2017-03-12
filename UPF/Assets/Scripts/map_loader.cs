@@ -53,6 +53,7 @@ public class map_loader : MonoBehaviour {
             GameObject instaniatedObject = Instantiate(tile, transform.position, transform.rotation);
             instaniatedObject.transform.SetParent(gameObject.transform);
             instaniatedObject.transform.position = new Vector3(row, col, 0);
+            instaniatedObject.name = row.ToString() + col.ToString();
             if (row == 20) {
                 row = 0;
                 col -= 1;
