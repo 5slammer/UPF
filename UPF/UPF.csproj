@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\manager.cs" />
     <Compile Include="Assets\Scripts\map_loader.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\rock.cs" />
     <Compile Include="Assets\Scripts\selector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
